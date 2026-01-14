@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Modern Todo List</title>
+
+</head>
+<body>
+<link rel="stylesheet" href="todolistmain.css">
+
+<script src="todolistmain.js"></script>
+
+
+<div class="bgmain">
+  <div class="todotitle">My Tasks</div>
+
+  <div class="enterbox">
+    <div class="typingbox">
+      <input 
+        type="text" 
+        class="real-input" 
+        id="todo-input"
+        placeholder="What do you need to do today?"
+      />
+      <label for="todo-input" class="float-label">
+        What do you need to do today?
+      </label>
+    </div>
+
+    <button type="button" class="plusbox" id="add-btn">
+      <span class="plus-icon">+</span> Add
+    </button>
+
+    <div class="todo-list"></div>
+  </div>
+
+  <div class="operationsboxmain">
+    <button type="button" class="deleteselected">Delete Completed</button>
+    <button type="button" class="deleteall">Clear All</button>
+  </div>
+</div>
+
+</body>
+</html>
